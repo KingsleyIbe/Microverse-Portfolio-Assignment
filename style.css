@@ -159,9 +159,9 @@ main.main-text {
   width: 50%;
   justify-content: space-between;
 }
-/* .mobile-image {
+.mobile-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   flex-direction: column;
-} */
+}
