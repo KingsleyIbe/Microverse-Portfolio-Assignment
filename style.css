@@ -1,3 +1,157 @@
 header {
-  color: blue;
+  background: #3C3A39;
 }
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 35px;
+  height: 5px;
+  background-color: #ACB7C3;
+  margin: 5px 0;
+}
+/* .menu-bar1 {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 70.83%;
+  border: 2px solid #ACB7C3;
+} */
+.nav-list .logo {
+  display: flex;
+  justify-content: start;
+  box-sizing: border-box;
+}
+nav .nav-list {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-list li {
+  list-style-type: none;
+}
+.nav-list li a {
+  color:#FFF5E1;
+  text-decoration: none;
+}
+
+.main {
+  background: #1C1A19;
+}
+
+main.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0px;
+  top: 92px;
+}
+
+.main-text h1 {
+  color: #FF6B00;
+  font-family: Crete Round;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  
+}
+
+.main-text h3 {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.main-text p {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.social-media li .social-1 .fab {
+  position: absolute;
+  left: 0.08%;
+  right: 0.01%;
+  top: 0%;
+  bottom: 0%;
+  color: #ffffff;
+}
+
+.social-media li .social-2 .fab {
+  position: absolute;
+  left: 36.44%;
+  right: 0%;
+  top: 15.17%;
+  bottom: 0%;
+}
+
+.social-media li .social-3 .fab {
+  position: absolute;
+left: 14.58%;
+right: 14.58%;
+top: 0%;
+bottom: 0%;
+color: #ffffff;
+}
+
+.social-media li .social-4 .fab {
+  position: absolute;
+left: 0.04%;
+right: 0.03%;
+top: 0.02%;
+bottom: 0%;
+color: #ffffff;
+}
+
+.social-media li .social-5 .fab {
+  position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+color: #ffffff;
+}
+.social-media i {
+  color: #ffffff;
+}
+
+.social-media li a {
+  text-decoration: none;
+}
+
+.social-media li {
+  list-style-type: none;
+}
+
