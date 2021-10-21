@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HELLO MICROVERSE
+# MICROVERSE STUDENT PORTFOLIO
 
-> This is an Hello Microverse project, similar to the popular Hello World project
+> This project is to test students knowledge on CSS flexbox and basic HTML.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/images/project-screenshoot.jpeg)
 
-Hello Microverse is aimed at helping Microverse students get familiar with git and github basics. 
-Student will learn how to create branches, commits descriptively, etc
+Students should be able to practice what they have learnt in CSS flexbox material shared to them.
+The project lays a foundation for their knowledge with flexbox.
 
 ## Built With
 
