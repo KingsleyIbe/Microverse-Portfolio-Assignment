@@ -2,31 +2,36 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #1C1A19;
+  background: #1c1a19;
 }
+
 header {
-  background: #3C3A39;
+  background: #3c3a39;
   margin: 0;
 }
+
 .menu {
-  display:flex;
-  justify-content:end;
+  display: flex;
+  justify-content: end;
   width: 35px;
   height: 3px;
-  background-color: #ACB7C3;
+  background-color: #acb7c3;
   margin-top: 7px;
   margin-right: 10px;
 }
+
 .menu1 {
   margin-top: 15px;
   margin-right: 10px;
 }
+
 .nav-list {
   display: flex;
   justify-content: space-between;
 }
+
 .nav-list h4 {
-  color: #FFFFFF;
+  color: #fff;
   box-sizing: border-box;
   font-family: Roboto;
   font-size: 18px;
@@ -37,9 +42,11 @@ header {
   text-align: center;
   margin-left: 10px;
 }
+
 main {
-  background: #1C1A19;
+  background: #1c1a19;
 }
+
 main.main-text {
   display: flex;
   flex-direction: column;
@@ -51,66 +58,72 @@ main.main-text {
   left: 0px;
   top: 92px;
 }
+
 .main-text h1 {
-  color: #FF6B00;
-  font-family: Crete Round;
+  color: #ff6b00;
+  font-family: Crete Round, Arial, Helvetica, sans-serif;
   font-size: 56px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   margin-left: 10px;
 }
+
 .main-text h3 {
   position: static;
   width: 327px;
   height: 27px;
   left: 24px;
   top: 256px;  
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
+  color: #fff5e1;
   flex: none;
-  order: 1;
-  flex-grow: 0;
+  order: 1px;
+  flex-grow: 0px;
   margin: 12px 0px;
   margin-left: 10px;
 }
+
 .main-text p {
   position: static;
   width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Poppins;
+  font-family: Poppins Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
-  order: 2;
-  flex-grow: 0;
+  order: 2px;
+  flex-grow: 0px;
   margin: 12px 0px;
   margin-left: 10px;
 }
+
 .social-media li .social-1 .fab {
   position: absolute;
   left: 0.08%;
   right: 0.01%;
   top: 0%;
   bottom: 0%;
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
-.social-media{
+
+.social-media {
   display: flex;
 }
+
 .social-media li .social-2 .fab {
   position: absolute;
   left: 36.44%;
@@ -119,8 +132,9 @@ main.main-text {
   bottom: 0%;
   display: flex;
   flex-direction: row;
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
+
 .social-media li .social-3 .fab {
   position: absolute;
   left: 14.58%;
@@ -129,36 +143,43 @@ main.main-text {
   bottom: 0%;
   color: #DBD8D7;
 }
+
 .social-media li .social-4 .fab {
   position: absolute;
   left: 0.04%;
   right: 0.03%;
   top: 0.02%;
   bottom: 0%;
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
+
 .social-media li .social-5 .fab {
   position: absolute;
   left: 8.33%;
   right: 8.33%;
   top: 16.67%;
   bottom: 16.67%;
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
+
 .social-media i {
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
+
 .social-media li a {
   text-decoration: none;
 }
+
 .social-media li {
   list-style-type: none;
 }
+
 .social-media-icons {
   display: flex;
   width: 50%;
   justify-content: space-between;
 }
+
 .mobile-image {
   display: flex;
   flex-wrap: wrap;
