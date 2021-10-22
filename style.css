@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #1c1a19;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -33,7 +34,7 @@ header {
 .nav-list h4 {
   color: #fff;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
