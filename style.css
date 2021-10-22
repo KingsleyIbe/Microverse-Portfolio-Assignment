@@ -38,7 +38,6 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: center;
   margin-left: 10px;
 }
@@ -55,7 +54,6 @@ main.main-text {
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
   top: 92px;
 }
 
@@ -64,7 +62,7 @@ main.main-text {
   font-family: Crete Round, Arial, Helvetica, sans-serif;
   font-size: 56px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: normal;
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
@@ -76,7 +74,7 @@ main.main-text {
   width: 327px;
   height: 27px;
   left: 24px;
-  top: 256px;  
+  top: 256px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -86,9 +84,9 @@ main.main-text {
   align-items: center;
   color: #fff5e1;
   flex: none;
-  order: 1px;
-  flex-grow: 0px;
-  margin: 12px 0px;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
   margin-left: 10px;
 }
 
@@ -104,10 +102,9 @@ main.main-text {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  flex: none;
-  order: 2px;
-  flex-grow: 0px;
-  margin: 12px 0px;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
   margin-left: 10px;
 }
 
@@ -141,7 +138,7 @@ main.main-text {
   right: 14.58%;
   top: 0%;
   bottom: 0%;
-  color: #DBD8D7;
+  color: #dbd8d7;
 }
 
 .social-media li .social-4 .fab {
