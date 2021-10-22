@@ -45,7 +45,7 @@ header {
 
 main {
   background-color: #1c1a19;
-  background: url("/images/bg-image.png");
+  background-image: url("/images/bg-image.png");
   height: 100vh;
   width: 100%;
   background-size: cover;
