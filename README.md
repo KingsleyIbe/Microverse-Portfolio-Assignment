@@ -17,7 +17,7 @@ The project lays a foundation for their knowledge with flexbox.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kingsleyibe.github.io/Microverse-Portfolio-Assignment)
 
 
 ## Getting Started
