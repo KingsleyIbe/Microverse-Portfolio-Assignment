@@ -21,8 +21,12 @@ header {
   margin-right: 10px;
 }
 
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
 .menu1 {
-  margin-top: 15px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 
@@ -49,6 +53,7 @@ header {
   height: 100vh;
   width: 100%;
   background-size: cover;
+  margin-left: 5px;
 }
 
 section.main-text {
@@ -180,11 +185,4 @@ section.main-text {
   display: flex;
   width: 50%;
   justify-content: space-between;
-}
-
-.mobile-image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  flex-direction: column;
 }
