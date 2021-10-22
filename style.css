@@ -187,3 +187,45 @@ section.main-text {
   width: 50%;
   justify-content: space-between;
 }
+
+.project-section {
+  background-color: #fff;
+}
+
+.project-headline h1 {
+  color: #000;
+  text-align: center;
+}
+
+.horizontal-line-1 {
+  width: 90%;
+  text-align: center;
+  color: #212121;
+  border: 1px solid;
+}
+
+.placeholder-1 {
+  background-image: url("placeholder-1.png");
+}
+
+.project-1 {
+  margin: 12px;
+  margin-left: 20px;
+  color: #091e42;
+}
+
+.project-list ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.project-list li {
+  display: flex;
+  min-width: 29%;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+}
+
+
+
