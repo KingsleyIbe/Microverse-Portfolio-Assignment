@@ -214,6 +214,8 @@ section.main-text {
 }
 
 .project-section {
+  display: grid;
+  grid-row-gap: 50px;
   background-color: #fff;
 }
 
