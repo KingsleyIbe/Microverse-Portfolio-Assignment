@@ -24,6 +24,14 @@ header {
   margin-right: 10px;
 }
 
+div a {
+  text-decoration: none;
+}
+
+div li {
+  list-style-type: none;
+}
+
 .logo a {
   color: #fff;
   text-decoration: none;
@@ -178,6 +186,19 @@ section.main-text {
   color: #dbd8d7;
 }
 
+.project-list-1 a {
+  padding: 0.5rem 0.5rem;
+  background: none;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.project-layout a {
+  color: #fff;
+}
+
 .social-media li a {
   text-decoration: none;
 }
@@ -240,15 +261,6 @@ section.main-text {
   grid-column-gap: 20px;
 }
 
-.project-list-1 a {
-  padding: 0.5rem 0.5rem;
-  background: none;
-  border: 1px solid #8993a4;
-  color: #091e42;
-  font-size: 15px;
-  font-weight: normal;
-}
-
 .project-list-1 li {
   display: flex;
   justify-content: space-between;
@@ -260,7 +272,7 @@ section.main-text {
   background-color: #ff6b00;
   color: #fff;
   padding: 0.5rem 1rem;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -284,10 +296,6 @@ section.main-text {
 .project-layout {
   margin-top: 0;
   padding-top: 70px;
-}
-
-.project-layout a {
-  color: #fff;
 }
 
 .project-layout ul {
@@ -314,7 +322,7 @@ section.main-text {
 
 .project-title {
   color: #fff;
-  font-family: "Crete Round", serif;
+  font-family: "Crete Round", serif, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: normal;
   line-height: 44px;
@@ -324,23 +332,15 @@ section.main-text {
 
 .project-list-2 ul {
   display: flex;
-  list-style-type: none; 
-  opacity: 0.2;
-}
-
-div a {
-  text-decoration: none;
-}
-
-div li {
   list-style-type: none;
+  opacity: 0.2;
 }
 
 .project-2-btn button {
   background-color: #ff6b00;
   color: #fff;
   padding: 0.5rem 1rem;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -352,13 +352,13 @@ div li {
 }
 
 .about-section {
-    margin-top: 200px;
-    background-image: url('about-me-bg.png');
-    background-repeat: no-repeat;
-    background-position: 100% 27%;
-    margin-bottom: 2rem;
-    overflow: hidden;
-    background-color: #1c1a19;
+  margin-top: 200px;
+  background-image: url('about-me-bg.png');
+  background-repeat: no-repeat;
+  background-position: 100% 27%;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  background-color: #1c1a19;
 }
 
 .about-headline {
@@ -371,7 +371,7 @@ div li {
 
 .about-headline h1 {
   color: #ff6b00;
-  font-family: Crete Round;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -381,12 +381,12 @@ div li {
 
 .about-headline p {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -395,7 +395,7 @@ div li {
   border: 0;
   padding: 20px;
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -418,42 +418,42 @@ div li {
 .details li {
   list-style-type: none;
   padding-top: 15px;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
 .language {
-  font-family: InaiMathi;
+  font-family: "InaiMathi", Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
 .frameworks {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
 .skills {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
