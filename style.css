@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background: #1c1a19;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -54,7 +57,6 @@ header {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  margin-left: 5px;
 }
 
 section.main-text {
@@ -78,6 +80,8 @@ section.main-text {
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   margin-left: 10px;
+  margin-top: 0;
+  padding-top: 60px;
 }
 
 .main-text h3 {
@@ -215,7 +219,8 @@ section.main-text {
 }
 
 .horizontal-line-2 {
-  width: 90%;
+  width: 97%;
+  margin-top: 200px;
 }
 
 .placeholder-1 {
@@ -231,24 +236,24 @@ section.main-text {
 .project-list-1 ul {
   display: flex;
   list-style-type: none;
-}
-
-.project-list-1 li {
-  display: flex;
-  min-width: 29%;
-  justify-content: space-between;
-  flex-direction: row;
-  border: 10px;
+  padding-left: 0;
+  grid-column-gap: 20px;
 }
 
 .project-list-1 a {
-  margin: 0 0.5em;
   padding: 0.5rem 0.5rem;
   background: none;
   border: 1px solid #8993a4;
   color: #091e42;
   font-size: 15px;
   font-weight: normal;
+}
+
+.project-list-1 li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 10px;
 }
 
 .project-1-btn button {
@@ -278,6 +283,7 @@ section.main-text {
 
 .project-layout {
   margin-top: 0;
+  padding-top: 70px;
 }
 
 .project-layout a {
@@ -293,7 +299,12 @@ section.main-text {
   margin-left: 10px;
   font-size: 15px;
   font-weight: normal;
+}
+
+.project-layout li {
   border: 1px solid #8993a4;
+  padding: 10px;
+  background: #ffffff3d;
 }
 
 .project-layout p {
@@ -341,30 +352,21 @@ div li {
 }
 
 .about-section {
-    width: 100%;
     margin-top: 200px;
-    height: 500px;
     background-image: url('about-me-bg.png');
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-    border-bottom: 2px solid #ccc;
+    background-position: 100% 27%;
     margin-bottom: 2rem;
+    overflow: hidden;
+    background-color: #1c1a19;
 }
 
 .about-headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 120px 24px 0 24px;
   position: relative;
-  width: 375px;
-  height: 590px;
-  top: 92px;
-  margin-top: 50px;
-}
-
-.about-container {
-  margin-top: 100px;
 }
 
 .about-headline h1 {
@@ -375,7 +377,6 @@ div li {
   font-weight: 400;
   line-height: 88px;
   text-align: left;
-  margin-top: -308px;
 }
 
 .about-headline p {
@@ -407,6 +408,11 @@ div li {
   text-align: center;
   color: #fff;
   margin-top: 10px;
+  padding: 0 45px;
+}
+
+.details ul {
+  padding-left: 0;
 }
 
 .details li {
@@ -454,32 +460,31 @@ div li {
 .language-container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+  margin-left: 25px;
 }
 
 .language img {
   max-width: 100%;
-  margin-left: 40px;
 }
 
 .frameworks-container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .frameworks img {
   max-width: 100%;
-  margin-left: 40px;
 }
 
 .skills-container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  margin-left: 60px;
+  gap: 20px;
 }
 
 .skills img {
   max-width: 100%;
-  margin-left: 40px;
 }
