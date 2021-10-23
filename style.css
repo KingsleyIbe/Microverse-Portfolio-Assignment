@@ -269,7 +269,6 @@ section.main-text {
 }
 
 .project-2 {
-  /* margin: 12px; */
   margin-left: 20px;
   margin-right: 20px;
   color: #091e42;
@@ -402,8 +401,6 @@ div li {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-
-
 }
 
 .details {
