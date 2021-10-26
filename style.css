@@ -131,56 +131,9 @@ section.main-text {
   margin-left: 10px;
 }
 
-/* .social-media li .social-1 .fab {
-  position: absolute;
-  left: 0.08%;
-  right: 0.01%;
-  top: 0%;
-  bottom: 0%;
-  color: #dbd8d7;
-} */
-
 .social-media {
   display: flex;
 }
-
-/* .social-media li .social-2 .fab {
-  position: absolute;
-  left: 36.44%;
-  right: 0%;
-  top: 15.17%;
-  bottom: 0%;
-  display: flex;
-  flex-direction: row;
-  color: #dbd8d7;
-}
-
-.social-media li .social-3 .fab {
-  position: absolute;
-  left: 14.58%;
-  right: 14.58%;
-  top: 0%;
-  bottom: 0%;
-  color: #dbd8d7;
-}
-
-.social-media li .social-4 .fab {
-  position: absolute;
-  left: 0.04%;
-  right: 0.03%;
-  top: 0.02%;
-  bottom: 0%;
-  color: #dbd8d7;
-}
-
-.social-media li .social-5 .fab {
-  position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 16.67%;
-  bottom: 16.67%;
-  color: #dbd8d7;
-} */
 
 .social-media i {
   color: #dbd8d7;
