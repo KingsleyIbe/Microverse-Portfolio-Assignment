@@ -541,8 +541,8 @@ section.main-text {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  padding-left: 0;
-  padding-top: 0;
+  padding-left: 15px;
+  padding-top: 10px;
   padding-bottom: 100px;
   width: 90%;
 }
