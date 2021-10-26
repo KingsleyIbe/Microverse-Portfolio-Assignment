@@ -567,8 +567,6 @@ section.main-text {
 .social-media-footer {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
-  border-top: 1px solid #dbd8d7;
   width: 50%;
   justify-content: space-between;
   margin-left: 70px;
@@ -579,6 +577,11 @@ section.main-text {
 }
 
 .horizontal-line-3 {
+  border-top: 1px solid #c0a69d;
+  margin-top: 100px;
+}
+
+.horizontal-line-4 {
   background: #0d151e;
   width: 134px;
   height: 5px;
