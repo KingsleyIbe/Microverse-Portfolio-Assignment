@@ -451,9 +451,9 @@ section.main-text {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin: 24px;
 }
 
@@ -474,14 +474,13 @@ section.main-text {
   border-bottom: 1px solid #dbd8d7;
   width: 90%;
   box-sizing: border-box;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-
 }
 
 .form textarea {
@@ -492,7 +491,7 @@ section.main-text {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   padding-left: 15px;
   padding-top: 10px;
@@ -537,6 +536,6 @@ section.main-text {
 .horizontal-line-4 {
   background: #0d151e;
   width: 134px;
-  height: 5px;
+  height: 5px;  
   bottom: 8px;
 }
