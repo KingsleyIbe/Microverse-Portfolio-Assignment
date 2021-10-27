@@ -4,7 +4,7 @@
 
 > This project is to test students knowledge on CSS flexbox, grid and basic HTML.
 
-![screenshot](/images/project-screenshoot.jpeg)
+![screenshot](/images/project-desktop-v.jpeg)
 
 Students should be able to practice what they have learnt in CSS flexbox and grid material shared to them.
 The project lays a foundation for their knowledge with flexbox and grid.
