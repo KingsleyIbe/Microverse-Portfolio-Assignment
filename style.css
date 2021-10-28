@@ -14,15 +14,15 @@ header {
   margin: 0;
 }
 
-.btn:focus {
-  background-color: #e05304;
-  color: #f4f1f0;
-  border: 1px solid #f55800;
-}
-
 .btn:hover {
   background-color: #fff5e1;
   color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
   border: 1px solid #f55800;
 }
 
