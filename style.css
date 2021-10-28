@@ -135,12 +135,12 @@ section .mv-main-text {
   margin-left: 10px;
 }
 
-.mv-social-media {
-  display: flex;
-}
-
 .mv-social-media i {
   color: #dbd8d7;
+}
+
+.mv-social-media {
+  display: flex;
 }
 
 .project-list-1 a {
