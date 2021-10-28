@@ -66,7 +66,7 @@ div li {
 .mv-section-headline {
   background-color: #1c1a19;
   background-image: url("bg-image.png");
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-size: cover;
 }
@@ -79,7 +79,7 @@ section .mv-main-text {
   position: absolute;
   width: 375px;
   height: 590px;
-  top: 92px;
+  bottom: 270px;
 }
 
 .mv-main-text h1 {
@@ -140,7 +140,7 @@ section .mv-main-text {
 }
 
 .mv-social-media i {
-  color: #df582b;
+  color: #dbd8d7;
 }
 
 .project-list-1 a {
@@ -544,10 +544,11 @@ section .mv-main-text {
   bottom: 8px;
 }
 @media only screen and (min-width: 1080px) {
+
   .mv-nav-list {
     display: none;
   }
-
+  
   .nav-list {
     display: flex;
   }
