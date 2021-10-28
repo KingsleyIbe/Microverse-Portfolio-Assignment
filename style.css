@@ -14,6 +14,24 @@ header {
   margin: 0;
 }
 
+.btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.btn:active {
+  background-color: #e05304;
+  color: #F4F1F0;
+  border: 1px solid #f55800;
+}
+
+.btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: 1px solid #f55800;
+}
+
 .nav-list {
   display: none;
 }
@@ -85,7 +103,7 @@ section .mv-main-text {
 .mv-main-text h1 {
   color: #ff6b00;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
-  font-size: 56px;
+  font-size: 72px;
   font-style: normal;
   font-weight: normal;
   line-height: 64px;
@@ -544,7 +562,7 @@ section .mv-main-text {
   bottom: 8px;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 990px) and (max-width: 2560px) {
   .mv-nav-list {
     display: none;
   }
@@ -554,7 +572,7 @@ section .mv-main-text {
   }
 
   .nav-list nav {
-    margin-left: 750px;
+    margin-left: 50rem;
   }
 
   .nav-list ul {
