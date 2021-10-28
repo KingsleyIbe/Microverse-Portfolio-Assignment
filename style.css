@@ -402,10 +402,9 @@ section.main-text {
 }
 
 @media only screen and (min-width: 1080px) {
-
 .nav-list {
   display: flex;
-  }
+}
 
   .nav-list nav {
     margin-left: 750px;
@@ -425,7 +424,6 @@ section.main-text {
   .nav-list a {
     color: #fff;
   }
-}
 
 .section-headline {
   background-image: url("Illustration-header.png");
@@ -617,4 +615,6 @@ section .main-text {
 
 .horizontal-line-4 {
   display: none;
+}
+
 }
