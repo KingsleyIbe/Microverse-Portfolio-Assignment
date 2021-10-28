@@ -401,13 +401,6 @@ section.main-text {
   color: #505f79;
 }
 
-.horizontal-line-4 {
-  background: #0d151e;
-  width: 134px;
-  height: 5px;
-  bottom: 8px;
-}
-
 @media only screen and (min-width: 1080px) {
 
 .nav-list {
@@ -439,7 +432,6 @@ section.main-text {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  background-size: cover;
   background-position: 100% 0;
   background-size: contain;
   background-color: #1c1a19;
@@ -495,7 +487,7 @@ section .main-text {
   color: #000;
   text-align: center;
   font-size: 40px;
-  font-family: "Crete Round", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
   margin-bottom: 1rem;
   font-weight: 400;
 }
