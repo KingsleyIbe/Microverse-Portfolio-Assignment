@@ -20,11 +20,11 @@ header {
   border: 1px solid #f55800;
 }
 
-/* .btn:hover {
+.btn:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
-} */
+}
 
 .btn:disabled {
   background-color: #f4f1f0;
