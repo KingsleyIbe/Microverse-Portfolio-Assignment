@@ -543,12 +543,12 @@ section .mv-main-text {
   height: 5px;
   bottom: 8px;
 }
-@media only screen and (min-width: 1080px) {
 
+@media only screen and (min-width: 1080px) {
   .mv-nav-list {
     display: none;
   }
-  
+
   .nav-list {
     display: flex;
   }
@@ -762,5 +762,5 @@ section .mv-main-text {
 
   .horizontal-line-4 {
     display: none;
- }
+  }
 }
