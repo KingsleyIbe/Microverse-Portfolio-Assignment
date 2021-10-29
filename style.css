@@ -54,9 +54,35 @@ div li {
   list-style-type: none;
 }
 
-.logo a {
+.mv-logo a {
   color: #fff;
   text-decoration: none;
+}
+
+.mv-logo {
+  animation: bounce 5s infinite;
+}
+
+.fa-envelope {
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 .menu1 {
@@ -491,6 +517,11 @@ section .mv-main-text {
   margin-bottom: 30px;
 }
 
+form .flex-item:hover {
+  position: relative;
+  left: 10px;
+}
+
 .form input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -571,6 +602,10 @@ section .mv-main-text {
     display: flex;
   }
 
+  .nav-list .animate {
+    transition: 1s;
+  }
+
   .nav-list nav {
     margin-left: 50rem;
   }
@@ -584,6 +619,11 @@ section .mv-main-text {
 
   .logo {
     margin-left: 60px;
+    transition: transform 2s ease-out;
+  }
+
+  .logo:hover {
+    transform: scale(1.2);
   }
 
   .nav-list a {
@@ -738,6 +778,10 @@ section .mv-main-text {
 
   .skills li {
     margin-left: 100px;
+  }
+
+  .nav-list li:hover {
+    opacity: 0.4;
   }
 
   .footer-container {
