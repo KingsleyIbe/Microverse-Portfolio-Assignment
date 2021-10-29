@@ -67,10 +67,6 @@ div li {
   animation: bounce 5s infinite;
 }
 
-/* .fa-envelope:hover {
-  color: #f55800;
-} */
-
 @keyframes bounce {
   0% {
     transform: scale(1);
@@ -613,11 +609,7 @@ section .mv-main-text {
   .nav-list li:hover {
     opacity: 0.4;
   }
-
-  /* .nav-list .animate:active {
-    border-bottom: 2px solid #f55800;
-  } */
-
+  
   .nav-list nav {
     margin-left: 50rem;
   }
