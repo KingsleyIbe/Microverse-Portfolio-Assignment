@@ -85,11 +85,6 @@ img:hover {
   transform: scale(1.1);
 }
 
-form .flex-item:hover {
-  position: relative;
-  left: 10px;
-}
-
 .menu1 {
   margin-top: 30px;
   margin-right: 10px;
@@ -522,6 +517,11 @@ section .mv-main-text {
   margin-bottom: 30px;
 }
 
+form .flex-item:hover {
+  position: relative;
+  left: 10px;
+}
+
 .form input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -606,10 +606,6 @@ section .mv-main-text {
     transition: 1s;
   }
 
-  .nav-list li:hover {
-    opacity: 0.4;
-  }
-  
   .nav-list nav {
     margin-left: 50rem;
   }
@@ -782,6 +778,10 @@ section .mv-main-text {
 
   .skills li {
     margin-left: 100px;
+  }
+
+  .nav-list li:hover {
+    opacity: 0.4;
   }
 
   .footer-container {
