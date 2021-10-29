@@ -67,6 +67,10 @@ div li {
   animation: bounce 5s infinite;
 }
 
+/* .fa-envelope:hover {
+  color: #f55800;
+} */
+
 @keyframes bounce {
   0% {
     transform: scale(1);
