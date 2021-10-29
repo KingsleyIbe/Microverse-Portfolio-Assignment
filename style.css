@@ -610,9 +610,9 @@ section .mv-main-text {
     opacity: 0.4;
   }
 
-  .nav-list .animate {
+  /* .nav-list .animate:active {
     border-bottom: 2px solid #f55800;
-  }
+  } */
 
   .nav-list nav {
     margin-left: 50rem;
