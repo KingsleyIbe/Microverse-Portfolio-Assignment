@@ -2,7 +2,7 @@
 
 # MICROVERSE STUDENT PORTFOLIO
 
-> This project is to test students knowledge on CSS flexbox, grid and basic HTML.
+> This project is to test students knowledge on CSS flexbox, grid, css animation and basic HTML.
 
 ![screenshot](/images/project-desktop-v.jpeg)
 
