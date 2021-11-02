@@ -109,7 +109,7 @@ img:hover {
 
 .mv-section-headline {
   background-color: #1c1a19;
-  background-image: url("bg-image.png");
+  background-image: url("./images/bg-image.png");
   height: 110vh;
   width: 100%;
   background-size: cover;
@@ -288,7 +288,7 @@ section .mv-main-text {
   margin-left: 20px;
   margin-right: 20px;
   color: #091e42;
-  background-image: url('placeholder-2.png');
+  background-image: url('./images/placeholder-2.png');
   background-size: cover;
 }
 
@@ -352,7 +352,7 @@ section .mv-main-text {
 
 .about-section {
   margin-top: 200px;
-  background-image: url('about-me-bg.png');
+  background-image: url('./images/about-me-bg.png');
   background-repeat: no-repeat;
   background-position: 100% 27%;
   margin-bottom: 2rem;
@@ -593,7 +593,7 @@ form .flex-item:hover {
   bottom: 8px;
 }
 
-@media only screen and (min-width: 990px) and (max-width: 2560px) {
+@media only screen and (min-width: 990px) {
   .mv-nav-list {
     display: none;
   }
@@ -631,7 +631,7 @@ form .flex-item:hover {
   }
 
   .section-headline {
-    background-image: url("Illustration-header.png");
+    background-image: url("./images/Illustration-header.png");
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -727,12 +727,12 @@ form .flex-item:hover {
     margin-left: 20px;
     margin-right: 20px;
     color: #091e42;
-    background-image: url('placeholder-2.png');
+    background-image: url('./images/placeholder-2.png');
     background-size: cover;
   }
 
   .about-headline {
-    background-image: url("illustration-about-me.png");
+    background-image: url("./images/illustration-about-me.png");
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
