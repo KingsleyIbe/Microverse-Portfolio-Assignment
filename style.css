@@ -46,6 +46,18 @@ header {
   margin-right: 10px;
 }
 
+.hamburger-links {
+  display: none;
+}
+
+.hamburger-links a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
 div a {
   text-decoration: none;
 }
@@ -593,7 +605,55 @@ form .flex-item:hover {
   bottom: 8px;
 }
 
-@media all and (min-width: 1025px) {
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 90%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding: 2rem;
+}
+
+.closeBtn {
+  float: right;
+  padding: 0.5rem;
+  width: 8%;
+
+}
+
+.menuPopUp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter' , sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /*text-align: left;*/
+  list-style: none;
+  border: 1px pink solid;
+  margin-right: 2rem;
+
+}
+
+.items {
+  margin-top: 1rem;
+}
+
+.items-line {
+  width: 90%;
+  margin-right: 60px;
+  border: 1px solid #6f6c6b;
+}
+
+@media all and (min-width: 1080px) {
   .mv-nav-list {
     display: none;
   }
@@ -826,3 +886,6 @@ form .flex-item:hover {
     display: none;
   }
 }
+
+/* @media only screen and (min-width: 500px) and (max-width: 767px)
+@media only screen and (min-width: 768px) and (max-width: 999px) */
