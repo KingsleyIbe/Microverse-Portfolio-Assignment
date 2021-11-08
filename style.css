@@ -608,7 +608,7 @@ form .flex-item:hover {
 .mobile-menu {
   display: none;
   background-color: #3c3a39;
-  width: 90%;
+  width: 100%;
   margin-top: 0;
   height: 100%;
   left: 0;
@@ -624,7 +624,6 @@ form .flex-item:hover {
   float: right;
   padding: 0.5rem;
   width: 8%;
-
 }
 
 .menuPopUp {

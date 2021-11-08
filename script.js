@@ -9,5 +9,5 @@ window.onload = () => {
     closeBtn.addEventListener('click', ()=>{
         const menu=document.querySelector('.mobile-menu');
         menu.style.display="none";
-    })
+    });
 }
