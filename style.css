@@ -617,27 +617,27 @@ form .flex-item:hover {
   bottom: 0;
   position: fixed;
   list-style: none;
-  padding: 2rem;
 }
 
 .closeBtn {
   float: right;
-  padding: 0.5rem;
-  width: 8%;
+  width: 10%;
 }
 
-.menuPopUp {
+.closeBtn img {
+  padding-top: 2rem;
+}
+
+.menuPopUp a {
   display: flex;
   flex-direction: column;
   color: #fff;
   margin-top: 3rem;
-  font-family: 'Inter' , sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  /*text-align: left;*/
   list-style: none;
-  border: 1px pink solid;
   margin-right: 2rem;
 
 }
@@ -648,7 +648,7 @@ form .flex-item:hover {
 
 .items-line {
   width: 90%;
-  margin-right: 60px;
+  margin-right: 100px;
   border: 1px solid #6f6c6b;
 }
 
@@ -885,6 +885,3 @@ form .flex-item:hover {
     display: none;
   }
 }
-
-/* @media only screen and (min-width: 500px) and (max-width: 767px)
-@media only screen and (min-width: 768px) and (max-width: 999px) */

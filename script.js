@@ -10,4 +10,10 @@ window.onload = () => {
         const menu=document.querySelector('.mobile-menu');
         menu.style.display="none";
     });
+
+    const backToMainPage = document.querySelector(".menuPopUp");
+    backToMainPage.addEventListener('click', ()=>{
+        const menu=document.querySelector('.mobile-menu');
+        menu.style.display="none";
+    });
 }
