@@ -59,6 +59,10 @@ div li {
   text-decoration: none;
 }
 
+img:hover {
+  transform: scale(1.1);
+}
+
 .mv-logo {
   animation: bounce 5s infinite;
 }
@@ -79,10 +83,6 @@ div li {
   100% {
     transform: scale(1);
   }
-}
-
-img:hover {
-  transform: scale(1.1);
 }
 
 .menu1 {
@@ -136,7 +136,7 @@ section .mv-main-text {
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   margin-left: 10px;
-  margin-top: 0;
+  margin-top: 62px;
   padding-top: 60px;
 }
 
@@ -198,6 +198,19 @@ section .mv-main-text {
 
 .mv-project-layout a {
   color: #fff;
+}
+
+.menuPopUp a {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .mv-social-media li a {
@@ -593,7 +606,40 @@ form .flex-item:hover {
   bottom: 8px;
 }
 
-@media only screen and (min-width: 990px) {
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+}
+
+.closeBtn {
+  float: right;
+  width: 10%;
+}
+
+.closeBtn img {
+  padding-top: 2rem;
+}
+
+.items {
+  margin-top: 1rem;
+}
+
+.items-line {
+  width: 90%;
+  margin-right: 100px;
+  border: 1px solid #6f6c6b;
+}
+
+@media all and (min-width: 1080px) {
   .mv-nav-list {
     display: none;
   }

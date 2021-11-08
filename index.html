@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Microverse Portfolio Project</title>
+    <title>Kingsley Portfolio</title>
 </head>
 <body>
     <header>
         <div class="mv-nav-list">
-            <h4 class="mv-logo"><a href="#">John Doe</a></h4>
+            <h4 class="mv-logo"><a href="#">Kingsley Ibe</a></h4>
             <nav>
                 <div class="menu1">
                     <div class="menu"></div>
@@ -22,21 +22,21 @@
                     <div class="menu"></div>
                 </div>
             </nav>
-            </div>
+        </div>
         <div class="nav-list">
-        <h4 class="logo"><a href="#">John Doe</a></h4>
+        <h4 class="logo"><a href="#">Kingsley Ibe</a></h4>
         <nav>
             <ul class="nav-list">
-                <li class="animate"><a href="#">Portfolio</a></li>
-                <li class="animate"><a href="#">About</a></li>
-                <li class="animate"><a href="#">contact</a></li>
+                <li class="animate"><a href="#porfolio">Portfolio</a></li>
+                <li class="animate"><a href="#about">About</a></li>
+                <li class="animate"><a href="#contact">contact</a></li>
                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </nav>
         </div>
     </header>
         <main>
-            <section class="section-headline mv-section-headline">
+            <section id="portfolio" class="section-headline mv-section-headline">
             <div class="main-text mv-main-text">
             <div class="intro">
                 <h1>Hey There. I’m Alex</h1>
@@ -170,7 +170,7 @@
             </div>
         </div>
         </section>
-        <section class="about-section">
+        <section id="about" class="about-section">
             <div class="about-container">
                 <div class="about-headline">
                     <div class="about-me">
@@ -237,7 +237,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="contact">
             <footer class="footer">
                 <div class="footer-container">
                 <div class="footer-text">
@@ -267,5 +267,16 @@
             </footer>
         </section>
         </main>
+        <div class="mobile-menu">
+            <div class="closeBtn">
+              <img src="./images/close-btn.svg" alt="Shows close button icon"/>
+            </div>
+            <ul class="menuPopUp">
+              <li class="items"><a href="#portfolio">Portfolio</a></li><hr class="items-line">
+              <li class="items"><a href="#about">About</a></li><hr class="items-line">
+              <li class="items"><a href="#contact">Contact</a></li><hr class="items-line">
+            </ul>
+        </div>
+        <script src="script.js"></script>
 </body>
 </html>
