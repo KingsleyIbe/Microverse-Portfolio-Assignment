@@ -46,18 +46,6 @@ header {
   margin-right: 10px;
 }
 
-.hamburger-links {
-  display: none;
-}
-
-.hamburger-links a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
 div a {
   text-decoration: none;
 }
@@ -210,6 +198,19 @@ section .mv-main-text {
 
 .mv-project-layout a {
   color: #fff;
+}
+
+.menuPopUp a {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .mv-social-media li a {
@@ -626,20 +627,6 @@ form .flex-item:hover {
 
 .closeBtn img {
   padding-top: 2rem;
-}
-
-.menuPopUp a {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  margin-top: 3rem;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  list-style: none;
-  margin-right: 2rem;
-
 }
 
 .items {
