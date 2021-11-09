@@ -6,17 +6,27 @@ window.onload = () => {
   });
 
   const closeBtn = document.querySelector('.closeBtn');
-  closeBtn.addEventListener('click', () => {
+  close(closeBtn,'.mobile-menu');
+ /* closeBtn.addEventListener('click', () => {
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'none';
-  });
+    close(menu);
+  });*/
 
   const backToMainPage = document.querySelector('.menuPopUp');
-  backToMainPage.addEventListener('click', () => {
+  close(backToMainPage,'.mobile-menu');
+  /*backToMainPage.addEventListener('click', () => {
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'none';
-  });
-}
+  });*/
+
+   function close(menu, toBeClose){
+     menu.addEventListener('click' , () =>{
+        const value = document.querySelector(toBeClose);
+        value.style.display = 'none';
+     });
+  }
+/*}*/
 
 //Function for mobile project details.
 const projectBtn = document.querySelector('.btn');
@@ -24,5 +34,4 @@ const projectBtn = document.querySelector('.btn');
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
   });
-
-  const closeTap = document
+}
