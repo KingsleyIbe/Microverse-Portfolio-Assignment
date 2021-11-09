@@ -639,6 +639,20 @@ form .flex-item:hover {
   border: 1px solid #6f6c6b;
 }
 
+.mobile-project-details {
+  display: none;
+  background-color: #3c3a39;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+}
+
 @media all and (min-width: 1080px) {
   .mv-nav-list {
     display: none;

@@ -16,4 +16,13 @@ window.onload = () => {
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'none';
   });
-};
+}
+
+//Function for mobile project details.
+const projectBtn = document.querySelector('.btn');
+  projectBtn.addEventListener('click', () => {
+    const projectDetails = document.querySelector('.mobile-project-details');
+    projectDetails.style.display = 'block';
+  });
+
+  const closeTap = document
