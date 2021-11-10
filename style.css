@@ -921,6 +921,11 @@ form .flex-item:hover {
     margin-left: 100px;
   }
 
+  .mobile-project-details li {
+    border: 1px solid #dfe1e6;
+    padding: 10px;
+  }
+
   .nav-list li:hover {
     opacity: 0.4;
   }
@@ -994,13 +999,12 @@ form .flex-item:hover {
     line-height: 44px;
   }
 
-  .mobile-project-details ul a {
-    color: #3c3a39;
+  .linksBtn a {
+    color: #fff;
   }
 
-  .mobile-project-details li {
-    border: 1px solid #dfe1e6;
-    padding: 10px;
+  .mobile-project-details ul a {
+    color: #3c3a39;
   }
 
   .mobile-project-details ul {
@@ -1036,10 +1040,6 @@ form .flex-item:hover {
     letter-spacing: 0.03em;
     border: 1px solid transparent;
     outline: none;
-  }
-
-  .linksBtn a {
-    color: #fff;
   }
 
   .linksBtn img {
