@@ -126,6 +126,7 @@ window.onload = () => {
      menu.addEventListener('click' , () =>{
         const value = document.querySelector(toBeClose);
         value.style.display = 'none';
+        const bodyColor = document.querySelector('.body').style.opacity = '1';
      });
   };
 
@@ -149,6 +150,7 @@ window.onload = () => {
   projectBtn2.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[1].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[1].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[1].tech[1];
@@ -162,6 +164,7 @@ window.onload = () => {
   projectBtn3.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[2].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[2].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[2].tech[1];
@@ -175,6 +178,7 @@ window.onload = () => {
   projectBtn4.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[3].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[3].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[3].tech[1];
@@ -188,6 +192,7 @@ window.onload = () => {
   projectBtn5.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[4].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[4].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[4].tech[1];
@@ -201,6 +206,7 @@ window.onload = () => {
   projectBtn6.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[5].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[5].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[5].tech[1];
@@ -214,6 +220,7 @@ window.onload = () => {
   projectBtn7.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[6].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[6].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[6].tech[1];
