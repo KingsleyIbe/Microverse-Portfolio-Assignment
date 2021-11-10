@@ -8,6 +8,9 @@ window.onload = () => {
   const projectBtn5 = document.querySelector('.btn-5');
   const projectBtn6 = document.querySelector('.btn-6');
   const projectBtn7 = document.querySelector('.btn-7');
+  const form = document.querySelector('.form');
+  const email = document.querySelector('.email');
+  const emailErrorDisplay = document.querySelector('.email-error-display');
 
   const projectItems = [
     {
@@ -229,5 +232,15 @@ window.onload = () => {
     const projectDescription = document.querySelector('.description').innerHTML=projectItems[6].description;
     const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[6].linkToLive;
     const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[6].linkToSource;
+  });
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (email.value === email.value.toLowerCase()) {
+      console.log(email.value.toLowerCase, email.value)
+      emailErrorDisplay.textContent = '';
+    }else{
+      emailErrorDisplay.textContent = '*Email must be in Lower case';
+    }
   });
 };
