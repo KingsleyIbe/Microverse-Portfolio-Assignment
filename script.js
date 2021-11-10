@@ -134,9 +134,16 @@ window.onload = () => {
   const closeBtn1 = document.querySelector('.closeBtn-1');
   close(closeBtn1,'.mobile-project-details');
 
+  if(projectDetails.style.display !== 'block'){
+    const bodyColor = document.querySelector('.body').style.opacity = '0.2';
+  }else{
+    bodyColor.document.querySelector('.body').style.opacity = '100';
+  }
+
   projectBtn1.addEventListener('click', () => {
     const projectDetails = document.querySelector('.mobile-project-details');
     projectDetails.style.display = 'block';
+    // const bodyColor = document.querySelector('.body').style.opacity = '0.2';
     const title = document.querySelector('.title-2').innerHTML=projectItems[0].title;
     const techList0 = document.querySelector('.tech-list-0').innerHTML=projectItems[0].tech[0];
     const techList1 = document.querySelector('.tech-list-1').innerHTML=projectItems[0].tech[1];
