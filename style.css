@@ -648,7 +648,7 @@ form .flex-item:hover {
   right: 20px;
   top: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   position: fixed;
   list-style: none;
 }
@@ -672,7 +672,7 @@ form .flex-item:hover {
 }
 
 .mobile-project-details li {
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   padding: 10px;
 }
 
@@ -690,13 +690,13 @@ form .flex-item:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .linksBtn button {
   background-color: #ff6b00;
-  color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.7rem;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -710,10 +710,19 @@ form .flex-item:hover {
   outline: none;
 }
 
+.linksBtn a {
+  color: #fff;
+}
+
+.linksBtn img {
+  padding: 10px;
+}
+
 .closeBtn-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 10px;
 }
 
 .closeBtn-2 i {
@@ -723,6 +732,10 @@ form .flex-item:hover {
   width: 15px;
   height: 25px;
   margin-top: 30px;
+}
+
+.show-modal {
+  visibility: visible;
 }
 
 @media all and (min-width: 1080px) {
