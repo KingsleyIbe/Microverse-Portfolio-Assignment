@@ -213,6 +213,10 @@ section .mv-main-text {
   margin-right: 2rem;
 }
 
+.linksBtn a {
+  color: #fff;
+}
+
 .mv-social-media li a {
   text-decoration: none;
 }
@@ -658,9 +662,9 @@ form .flex-item:hover {
   position: static;
   width: 259px;
   height: 82px;
-  left: 0px;
-  top: 0px;
-  font-family: Roboto;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -668,7 +672,7 @@ form .flex-item:hover {
 }
 
 .mobile-project-details ul a {
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .mobile-project-details li {
@@ -710,10 +714,6 @@ form .flex-item:hover {
   outline: none;
 }
 
-.linksBtn a {
-  color: #fff;
-}
-
 .linksBtn img {
   padding: 10px;
 }
@@ -728,7 +728,7 @@ form .flex-item:hover {
 .closeBtn-2 i {
   padding-top: 0.3rem;
   padding-left: 0.1rem;
-  color: #67798E;
+  color: #67798e;
   width: 15px;
   height: 25px;
   margin-top: 30px;
@@ -979,29 +979,30 @@ form .flex-item:hover {
     position: fixed;
     list-style: none;
   }
+
   .closeBtn-1 h2 {
     color: #172b4d;
     position: static;
     width: 259px;
     height: 82px;
-    left: 0px;
-    top: 0px;
-    font-family: Roboto;
+    left: 0;
+    top: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   .mobile-project-details ul a {
-    color: #3C3A39;
+    color: #3c3a39;
   }
-  
+
   .mobile-project-details li {
     border: 1px solid #dfe1e6;
     padding: 10px;
   }
-  
+
   .mobile-project-details ul {
     display: flex;
     flex-direction: row;
@@ -1011,7 +1012,7 @@ form .flex-item:hover {
     padding: 0.5rem 0.5rem;
     margin-left: 10px;
   }
-  
+
   .linksBtn {
     display: flex;
     flex-direction: row;
@@ -1020,7 +1021,7 @@ form .flex-item:hover {
     margin-right: 20px;
     width: 51%;
   }
-  
+
   .linksBtn button {
     background-color: #ff6b00;
     padding: 0.5rem 0.7rem;
@@ -1036,26 +1037,26 @@ form .flex-item:hover {
     border: 1px solid transparent;
     outline: none;
   }
-  
+
   .linksBtn a {
     color: #fff;
   }
-  
+
   .linksBtn img {
     padding: 10px;
   }
-  
+
   .closeBtn-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10px;
   }
-  
+
   .closeBtn-2 i {
     padding-top: 0.3rem;
     padding-left: 0.1rem;
-    color: #67798E;
+    color: #67798e;
     width: 15px;
     height: 25px;
     margin-top: 30px;
