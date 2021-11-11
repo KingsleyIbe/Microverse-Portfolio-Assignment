@@ -734,6 +734,10 @@ form .flex-item:hover {
   margin-top: 30px;
 }
 
+.email-error-display {
+  color: #f00;
+}
+
 @media all and (min-width: 1080px) {
   .mv-nav-list {
     display: none;
