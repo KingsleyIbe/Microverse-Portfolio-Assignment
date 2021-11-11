@@ -735,7 +735,7 @@ form .flex-item:hover {
 }
 
 .email-error-display {
-  color: #ff0000;
+  color: #f00;
 }
 
 @media all and (min-width: 1080px) {
