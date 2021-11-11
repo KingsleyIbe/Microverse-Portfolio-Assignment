@@ -235,12 +235,11 @@ window.onload = () => {
   });
 
   form.addEventListener('submit', (event) => {
-    event.preventDefault();
     if (email.value === email.value.toLowerCase()) {
-      console.log(email.value.toLowerCase, email.value)
       emailErrorDisplay.textContent = '';
     }else{
-      emailErrorDisplay.textContent = '*Email must be in Lower case';
+      event.preventDefault();
+      emailErrorDisplay.textContent = '*All email letters must be in Lower case';
     }
   });
 };
